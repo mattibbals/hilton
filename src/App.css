@@ -1,0 +1,100 @@
+.App {
+  text-align: left;
+  background: url('./images/background.png');
+  padding-top:15px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.App img {
+  border:2px solid #ffffff;
+  max-height: 150px;
+  margin:0 auto;
+  display:block;
+}
+
+.App div,
+.App ul,
+.App a {
+   margin-right:15px;
+   margin-left:15px;
+}
+
+.hotel_name {
+  color:#ffffff;
+  font-weight:bold;
+  margin-top:15px;
+}
+.hotel_address {
+  margin-top:5px;
+  color:#a1bed9;
+  font-size:12px;
+}
+.hotel_phone {
+  color:#ffffff;
+  font-size:12px;
+  margin-top:5px;
+}
+ul {
+  margin:0;
+  padding:0;
+  background-color:#ffffff;
+  margin-top:15px;
+}
+li {
+    background: linear-gradient(#ffffff, #a1bed9);
+    background-size: 100% 99%;
+    background-repeat: no-repeat;
+    background-color:#ffffff;
+    font-weight:bold;
+    list-style-type: none;
+    margin:0;
+    padding:10px;
+    font-size:14px;
+    border-bottom:1px solid #cbcbcb;
+    margin-bottom:1px;
+}
+li:first-of-type,
+ul {
+  border-radius: 8px 8px 0 0;
+}
+li span {
+  float:right;
+}
+.Room {
+  border-radius: 8px;
+  width:100px;
+  height:80px;
+  margin:5px;
+  font-size:14px;
+  font-weight:bold;
+  background-color:#cccccc;
+  border:3px solid #c0c0c0;
+}
+.Room div.room_header {
+  
+  margin:0;
+  padding:3px;
+}
+.Room.enabled {
+  background-color:#f0f0f0;
+  border:3px solid #cccccc;
+}
+.Room.enabled div.room_header {
+  background-color:#cccccc;
+}
+.Room div {
+  margin:0;
+  padding:0;  
+}
+.NumGuestOption {
+  width:45px;
+  float:left;
+  font-size:12px;
+  font-weight:normal;
+}
+.NumGuestOption div,
+.NumGuestOption select {
+  margin:2px 0 3px 5px;
+  padding:0;
+}
+
